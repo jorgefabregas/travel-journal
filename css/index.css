@@ -14,8 +14,12 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
     display: block;
   }
   
-  html,
-  body {
+  img, object, embed {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  html, body {
     cursor: default;
   }
   .header h1 {
